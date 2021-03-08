@@ -13,7 +13,7 @@ const PostDetail = () => {
         .then(res => res.json())
         .then(data => setPost(data))
 
-    }, [])
+    }, [id])
 
 useEffect(() => {
 
@@ -22,7 +22,7 @@ useEffect(() => {
         .then(res => res.json())
         .then(data => setComments(data))
 
-},[])
+},[id])
 
 
     return (
