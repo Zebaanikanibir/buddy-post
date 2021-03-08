@@ -16,7 +16,7 @@ history.push(url)}
             <h1>{id}</h1>
             <h3>{body}</h3>
             <h4>title: {title}</h4>
-            <button onClick={() => showComments(id)}>Details</button>
+            <button className="btn btn-info" onClick={() => showComments(id)}>Details</button>
         </div>
     );
 };
